@@ -1,0 +1,14 @@
+{
+    "name": "Loidman",
+    "title": "Loidman",
+    "description": "Code... changes... man?!",
+    "homepage": "https://github.com/Tigerath/LoidMan",
+    "version": "1.0",
+    "author": "Drake Zirkle and Brenden Zeisset <drake.zirkle@gmail.com>",
+    "theme": {
+        "file": "loidman.css",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "themes", "color", "colour", "change"]
+}
