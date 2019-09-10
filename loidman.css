@@ -1,0 +1,90 @@
+/*
+* Author: Tigerath
+* 2019
+*/
+
+/* ------------------- Common main area colors ------------------- */
+
+/* Background colors */
+.CodeMirror, .CodeMirror-scroll {background-color: #111111;  }
+
+/* Gutter colors */
+.CodeMirror-gutter, .CodeMirror-gutters{background-color: #111111;}
+.CodeMirror-foldgutter{ border-right: 1px solid #2e2e2e;}
+
+/* Cursor */
+.CodeMirror-cursor {border-right: 1px solid #ede0ce;}
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {border-left: none; border-bottom: 2px solid #ede0ce;} 
+
+/* Matching elements */
+.CodeMirror-matchingbracket{ background-color: #fff; transition: .5s;}
+.CodeMirror-matchingtag{ background-color: rgba(100, 100, 100, 0.5); transition: .5s;}
+
+/* Selected lines */
+.CodeMirror-selected{background-color: rgba(100, 100, 100, 0.5) !important; border-left: 1px solid #aaf; border-right: 1px solid #aaf; } 
+
+/* CSS transition support */
+.CodeMirror .cm-m-css{color: #888; transition: .5s;}
+
+/* JS transition support*/
+.CodeMirror .cm-m-javascript{color: #888; transition: .5s;}
+
+/* HTML transition support*/
+.CodeMirror .cm-m-xml{color: #888; transition: .5s;}
+
+/* ------------------------ CSS COLORS ---------------------------*/
+
+.CodeMirror:hover .cm-m-css { color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-css.cm-qualifier { color: tomato; }
+
+.CodeMirror:hover .cm-m-css.cm-atom { color: skyblue;} 
+
+.CodeMirror:hover .cm-m-css.cm-tag { color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-css.cm-property { color: lightgreen; }
+
+.CodeMirror:hover .cm-m-css.cm-number { color: gold;}
+
+.CodeMirror:hover .cm-m-css.cm-keyword { color: dodgerblue;}
+
+/*-------------------------- JS COLORS ----------------------------*/
+
+.CodeMirror:hover .cm-m-javascript{color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-javascript.cm-keyword{color: dodgerblue;}
+
+.CodeMirror:hover .cm-m-javascript.cm-def{ color: white;}
+
+.CodeMirror:hover .cm-m-javascript.cm-variable{ color: white;}
+
+.CodeMirror:hover .cm-m-javascript.cm-variable-2{ color: violet;}
+
+.CodeMirror:hover .cm-m-javascript.cm-variable-3{ color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-javascript.cm-string{ color: coral;}
+
+.CodeMirror:hover .cm-m-javascript.cm-property{ color: lightgreen;}
+
+.CodeMirror:hover .cm-m-javascript.cm-operator{ color: orangered;}
+
+.CodeMirror:hover .cm-m-javascript.cm-number{ color: gold;}
+
+.CodeMirror:hover .cm-m-javascript.cm-comment{ color: lightsteelblue;}
+
+/*--------------------------- HTML COLORS ------------------------*/
+
+.CodeMirror:hover .cm-m-xml{color: #fff;}
+
+.CodeMirror:hover .cm-m-xml.cm-meta{color: chocolate;}
+
+.CodeMirror:hover .cm-m-xml.cm-comment{color: lightsteelblue; font-style: italic;}
+
+.CodeMirror:hover .cm-m-xml.cm-tag.cm-bracket{color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-xml.cm-tag{color: lightseagreen;}
+
+.CodeMirror:hover .cm-m-xml.cm-attribute{color: mediumorchid;}
+
+.CodeMirror:hover .cm-m-xml.cm-string{color: coral;}
+
