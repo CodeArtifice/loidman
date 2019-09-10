@@ -8,4 +8,8 @@ While you keep the mouse over the code area it will be coloured, move your mouse
 # LICENSE 
 Nonexistent
 
+# CREDIT
+Color pallete: Wayman https://github.com/Waymans/Brackets-Themes/tree/master/Dark
+Color shifting idea: Ismalf https://github.com/Ismalf/darkaloid
+
 
