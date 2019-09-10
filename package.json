@@ -5,6 +5,7 @@
     "homepage": "https://github.com/Tigerath/LoidMan",
     "version": "1.0",
     "author": "Drake and Brenden <drake.zirkle@gmail.com>",
+    "license": "MIT",
     "theme": {
         "file": "loidman.css",
         "dark": true,
