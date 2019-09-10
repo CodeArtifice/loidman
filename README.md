@@ -12,6 +12,7 @@ MIT
 
 # CREDIT
 Color pallete: Wayman https://github.com/Waymans/Brackets-Themes/tree/master/Dark
+
 Color shifting code: Ismalf https://github.com/Ismalf/darkaloid
 
 
