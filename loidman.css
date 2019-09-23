@@ -48,6 +48,8 @@
 
 .CodeMirror:hover .cm-m-css.cm-keyword { color: dodgerblue;}
 
+.CodeMirror:hover .cm-m-css.cm-comment{ color: lightsteelblue; font-style: italic;}
+
 /*-------------------------- JS COLORS ----------------------------*/
 
 .CodeMirror:hover .cm-m-javascript{color: lightseagreen;}
@@ -70,7 +72,7 @@
 
 .CodeMirror:hover .cm-m-javascript.cm-number{ color: gold;}
 
-.CodeMirror:hover .cm-m-javascript.cm-comment{ color: lightsteelblue;}
+.CodeMirror:hover .cm-m-javascript.cm-comment{ color: lightsteelblue; font-style: italic;}
 
 /*--------------------------- HTML COLORS ------------------------*/
 
